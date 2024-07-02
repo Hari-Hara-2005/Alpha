@@ -9,34 +9,28 @@ const Hero = () => {
     }, []);
 
     return (
-        <Box sx={{overflow:'hidden'}}>
-            <Box sx={{ height: '100vh', bgcolor: '#fff', overflow: 'hidden' }}>
-                <Box sx={{ display: 'flex', justifyContent: 'center', py: '6rem', transition: 'all cubic- bezier(0.19, 1, 0.22, 1)0.5s', transition: 'transform', overflow: 'hidden' }}>
+        <Box sx={{ width: '100%', overflow: 'hidden' }}>
+            <Box sx={{ height: '100vh', bgcolor: '#fff' }}>
+                <Box sx={{ display: 'flex', justifyContent: 'center', py: '6rem', transition: 'all cubic-bezier(0.19, 1, 0.22, 1) 0.5s' }}>
                     <img src='/Assets/cover.png' alt='Cover' style={{ maxWidth: '100%', marginTop: '3rem' }} />
                     <Box component='img'
                         id='card'
                         src='/Assets/card.png'
                         alt='Card'
                         sx={{
-                            width: ['100%', '40rem', '40rem', '40rem', '40rem'],
-                            transition: 'transform',
-                            transition: 'all cubic- bezier(0.19, 1, 0.22, 1) 2s',
-                            marginLeft: ['0rem', '20rem'],
+                            width: ['28rem', '40rem', '40rem', '40rem', '40rem'],
+                            transition: 'all cubic-bezier(0.19, 1, 0.22, 1) 2s',
+                            marginLeft: ['5rem', '20rem'],
                             mt: ['1rem', '0rem'],
-                            position: 'absolute',
+                            position: 'absolute'
                         }}
                     />
                 </Box>
             </Box>
-            <Box sx={{ height: '100vh', bgcolor: '#282828', }} className="two">
+            <Box sx={{ height: '120vh', bgcolor: '#282828' }} className="two">
                 <Navbar />
-                <Box sx={{ display: 'flex', py: '5rem' }}>
+                <Box sx={{ display: 'flex', py: ['8.1rem', '5rem'] }}>
                     <img src='/Assets/cover.png' alt='Cover 2' style={{ maxWidth: '100%', marginTop: '3rem' }} />
-                </Box>
-            </Box>
-            <Box sx={{ height: '100vh' }} className="two">
-                <Box sx={{ display: 'flex' }}>
-                    <img src='/Assets/cover.png' alt='Cover 2' style={{ maxWidth: '100%' }} />
                 </Box>
             </Box>
         </Box>

@@ -9,7 +9,7 @@ export const animateHero = () => {
         scrollTrigger: {
             trigger: ".two",
             start: "0% 95%",
-            end: "70% 50%",
+            end: "60% 50%",
             scrub: true,
             // markers: true,
         }
@@ -17,12 +17,11 @@ export const animateHero = () => {
 
     tl1.to("#card", {
         rotate: '180deg',
-        top: "126%",
-        left: "-10%"
-    })
+        top: "132%",
+        left: "-10%",
+    });
 
-
-    // // Second timeline
+    // Second timeline (uncomment and adjust if needed)
     // const tl2 = gsap.timeline({
     //     scrollTrigger: {
     //         trigger: ".three",
@@ -36,7 +35,7 @@ export const animateHero = () => {
     // tl2.to("#card", {
     //     top: "210%",
     //     left: "33%",
-    // })
+    // });
     // tl1.to("#card-1", {
     //     rotate: '180deg',
     //     top: "210%",
@@ -44,5 +43,4 @@ export const animateHero = () => {
     // });
 };
 
-// Call the function to initialize the animations
 animateHero();
