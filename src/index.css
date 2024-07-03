@@ -5,3 +5,11 @@
 body {
     overflow-x: hidden;
 }
+.hero_bg {
+    background-image: url('logo.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 50% 60%;
+    background-position:50% -20%;
+    overflow: hidden;
+}

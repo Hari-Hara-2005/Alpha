@@ -9,12 +9,12 @@ const Hero = () => {
     }, []);
 
     return (
-        <Box sx={{ width: '100%', overflow: 'hidden' }}>
-            <Box sx={{ height: '100vh', bgcolor: '#f5f5f7' }}>
+        <Box>
+            <Box sx={{ height: '100vh', bgcolor: '#f5f5f8' }} className="hero_bg" >
                 {/* <Box sx={{display:'flex',justifyContent:'center'}}>
                     <Box component='img' src="/Assets/logo.png" sx={{ position: 'absolute'}} />
                 </Box> */}
-                <Box sx={{ display: 'flex', justifyContent: 'center', py: '6rem', transition: 'all cubic-bezier(0.19, 1, 0.22, 1) 0.5s', }}>
+                <Box sx={{ display: 'flex', justifyContent: 'center', py: '8rem', transition: 'all cubic-bezier(0.19, 1, 0.22, 1) 0.5s', }}>
                     <img src='/Assets/cover.png' alt='Cover' style={{ width: '50rem' }} />
                     <Box component='img'
                         id='card'
@@ -23,8 +23,8 @@ const Hero = () => {
                         sx={{
                             width: ['28rem', '40rem', '40rem', '100%', '18rem'],
                             transition: 'all cubic-bezier(0.19, 1, 0.22, 1) 2s',
-                            marginLeft: ['5rem', '2rem'],
-                            mt: ['1rem', '90px'],
+                            marginLeft: ['5rem', '1.8rem'],
+                            mt: ['1rem', '5.899rem'],
                             position: 'absolute',
                         }}
                     />
