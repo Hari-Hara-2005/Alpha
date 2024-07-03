@@ -9,7 +9,7 @@ export const animateHero = () => {
         scrollTrigger: {
             trigger: ".two",
             start: "0% 100%",
-            end: "55% 50%",
+            end: "50% 50%",
             scrub: true,
             // markers: true,
         }
@@ -17,7 +17,8 @@ export const animateHero = () => {
 
     tl1.to("#card", {
         rotate: '360deg',
-        top: "120%",
+        width: '23.5rem',
+        top: "108%",
         left: "20%",
     });
 

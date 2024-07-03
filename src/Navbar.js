@@ -3,7 +3,7 @@ import { Box, Stack, Typography } from '@mui/material'
 const Navbar = () => {
     return (
         <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-            <Box sx={{ py: [2, 2, 5], width: ['24rem'], zIndex: 10 }}>
+            <Box sx={{ py: [2, 2, 2], width: ['24rem'], zIndex: 10 }}>
                 <Box>
                     <nav>
                         <Box sx={{ display: 'flex', bgcolor: '#fff', py: 2, justifyContent: 'center', alignItems: 'center', borderRadius: '50px', boxShadow: ' rgba(0, 0, 0, 0.35) 0px 5px 15px' }}>
