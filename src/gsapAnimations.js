@@ -17,7 +17,7 @@ export const animateHero = () => {
 
     tl1.to("#card", {
         rotate: '180deg',
-        top: "132%",
+        top: "50%",
         left: "-10%",
     });
 
