@@ -10,11 +10,11 @@ const Hero = () => {
 
     return (
         <Box sx={{ width: '100%', overflow: 'hidden' }}>
-            <Box sx={{ height: '100vh', bgcolor: '#fff' }}>
+            <Box sx={{ height: '100vh', bgcolor: '#f5f5f7' }}>
                 {/* <Box sx={{display:'flex',justifyContent:'center'}}>
                     <Box component='img' src="/Assets/logo.png" sx={{ position: 'absolute'}} />
                 </Box> */}
-                <Box sx={{ display: 'flex', justifyContent: 'center', py: '6rem', transition: 'all cubic-bezier(0.19, 1, 0.22, 1) 0.5s' ,}}>
+                <Box sx={{ display: 'flex', justifyContent: 'center', py: '6rem', transition: 'all cubic-bezier(0.19, 1, 0.22, 1) 0.5s', }}>
                     <img src='/Assets/cover.png' alt='Cover' style={{ width: '50rem' }} />
                     <Box component='img'
                         id='card'
@@ -24,7 +24,7 @@ const Hero = () => {
                             width: ['28rem', '40rem', '40rem', '100%', '18rem'],
                             transition: 'all cubic-bezier(0.19, 1, 0.22, 1) 2s',
                             marginLeft: ['5rem', '2rem'],
-                            mt: ['1rem', '5.8rem'],
+                            mt: ['1rem', '5.3rem'],
                             position: 'absolute',
                         }}
                     />
