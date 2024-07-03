@@ -25,6 +25,7 @@ const Hero = () => {
                             position: 'absolute'
                         }}
                     />
+                    
                 </Box>
             </Box>
             <Box sx={{ height: '120vh', bgcolor: '#282828' }} className="two">
