@@ -19,7 +19,7 @@ export const animateHero = () => {
         rotate: '360deg',
         width: '23.5rem',
         top: "108%",
-        left: "20%",
+        left: "23.10%",
     });
 
     // Second timeline (uncomment and adjust if needed)

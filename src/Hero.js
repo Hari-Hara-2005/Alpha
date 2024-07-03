@@ -34,9 +34,9 @@ const Hero = () => {
             </Box>
             <Box sx={{ height: '100vh', bgcolor: '#282828' }} className="two">
                 <Navbar />
-                <Box sx={{ display: 'flex', py: ['8.1rem', '0rem'] }}>
-                    <img src='/Assets/cover.png' alt='Cover 2' style={{ width: '50rem', marginTop: '1rem', position: 'absolute' }} />
-                    <img src='/Assets/card-2.png' alt='Card 2' style={{ zIndex: 2, marginLeft: '21.9%', width: '23.5rem', marginTop: '2.9rem', }} />
+                <Box sx={{ display: 'flex', py: ['8.1rem', '0rem'], alignItems: 'center' }}>
+                    <img src='/Assets/cover.png' alt='Cover 2' style={{ width: '55rem', position: 'absolute' }} />
+                    <img src='/Assets/card-2.png' alt='Card 2' style={{ zIndex: 2, marginLeft: '25%', width: '23.5rem', marginTop: '3rem', }} />
                 </Box>
             </Box>
         </Box>
