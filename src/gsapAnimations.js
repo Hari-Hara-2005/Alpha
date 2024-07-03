@@ -8,7 +8,7 @@ export const animateHero = () => {
     const tl1 = gsap.timeline({
         scrollTrigger: {
             trigger: ".two",
-            start: "0% 95%",
+            start: "0% 100%",
             end: "60% 50%",
             scrub: true,
             // markers: true,
