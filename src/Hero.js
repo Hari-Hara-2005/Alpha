@@ -24,7 +24,7 @@ const Hero = () => {
                             width: ['28rem', '40rem', '40rem', '100%', '18rem'],
                             transition: 'all cubic-bezier(0.19, 1, 0.22, 1) 2s',
                             marginLeft: ['5rem', '2rem'],
-                            mt: ['1rem', '5.6rem'],
+                            mt: ['1rem', '5.8rem'],
                             position: 'absolute',
                         }}
                     />
