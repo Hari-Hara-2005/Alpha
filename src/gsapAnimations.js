@@ -9,16 +9,16 @@ export const animateHero = () => {
         scrollTrigger: {
             trigger: ".two",
             start: "0% 100%",
-            end: "60% 50%",
+            end: "55% 50%",
             scrub: true,
             // markers: true,
         }
     });
 
     tl1.to("#card", {
-        rotate: '180deg',
-        top: "132%",
-        left: "-10%",
+        rotate: '360deg',
+        top: "120%",
+        left: "20%",
     });
 
     // Second timeline (uncomment and adjust if needed)
