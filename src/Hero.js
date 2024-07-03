@@ -24,14 +24,14 @@ const Hero = () => {
                             width: ['28rem', '40rem', '40rem', '100%', '18rem'],
                             transition: 'all cubic-bezier(0.19, 1, 0.22, 1) 2s',
                             marginLeft: ['5rem', '2rem'],
-                            mt: ['1rem', '5.9rem'],
+                            mt: ['1rem', '90px'],
                             position: 'absolute',
                         }}
                     />
 
                 </Box>
             </Box>
-            <Box sx={{ height: '120vh', bgcolor: '#282828' }} className="two">
+            <Box sx={{ height: '105vh', bgcolor: '#282828' }} className="two">
                 <Navbar />
                 <Box sx={{ display: 'flex', py: ['8.1rem', '5rem'] }}>
                     <img src='/Assets/cover.png' alt='Cover 2' style={{ maxWidth: '100%', marginTop: '3rem' }} />
